@@ -1,0 +1,148 @@
+body {
+  background-color: rgb(234, 214, 164);
+  }
+
+header{
+  background-color: rgb(140, 118, 88);
+  margin: 50px 0 0 0 ;
+  height: 120px;
+  }
+
+#heading img{
+  height: 120px;
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  }
+  
+li {
+  display: inline-block;
+  margin: 0 30px 0 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  }
+  
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  top: 50%;
+  left: 50%;     
+  }
+
+.description {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  }
+
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: center;  
+  }
+  
+.column3 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: center;  
+  } 
+  
+.column4 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: center;    
+  }
+
+.parag {
+  font-family: 'Roboto', sans-serif;
+  width: 1500px;
+  text-align: center;
+  font-size: x-large;  
+  font-weight: 1000;
+  margin: 60px auto 60px auto;
+  }
+  
+.row img {
+  width: 200px;
+  height: 200px;  
+  margin: 40px 0 0 0;    
+  }
+
+a.home:link {
+  color:#131c63; 
+  text-decoration: none;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.home:visited {color: white;}
+a.home:hover {font-size:150%;}
+
+a.about:link {
+  color:#131c63; 
+  text-decoration: none;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.about:visited {color: white;;}
+a.about:hover {font-size:150%;}
+
+a.contact:link {
+  color:#131c63; 
+  text-decoration: none;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.contact:visited {
+  color: white;
+  }
+
+a.contact:hover {
+  font-size:150%;
+  }
+
+.parag2 {
+  font-family: 'Saira', sans-serif;
+
+  width: 1500px;
+  text-align: center;
+  font-size: x-large;  
+  font-weight: 1000;
+  margin: 500px auto 60px auto;
+  }
+
+footer { 
+  position :absolute;
+  bottom : 0;
+  right: 0;
+}
+.media {
+  float: left;
+}
