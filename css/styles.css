@@ -30,11 +30,11 @@ li {
   
 .column {
   float: left;
-  width: 25%;
+  width: 23%;
   padding: 10px;
-  text-align: center;
-  top: 50%;
-  left: 50%;     
+  text-align: center;  
+  border-style: solid; 
+  margin: 1%;  
   }
 
 .description {
@@ -47,23 +47,29 @@ li {
 
 .column2 {
   float: left;
-  width: 25%;
+  width: 23%;
   padding: 10px;
   text-align: center;  
+  border-style: solid; 
+  margin: 1%; 
   }
   
 .column3 {
   float: left;
-  width: 25%;
+  width: 23%;
   padding: 10px;
   text-align: center;  
+  border-style: solid; 
+  margin: 1%;
   } 
   
 .column4 {
   float: left;
-  width: 25%;
+  width: 23%;
   padding: 10px;
-  text-align: center;    
+  text-align: center;  
+  border-style: solid; 
+  margin: 1%;    
   }
 
 .parag {
@@ -74,11 +80,11 @@ li {
   font-weight: 1000;
   margin: 60px auto 60px auto;
   }
-  
+
 .row img {
   width: 200px;
   height: 200px;  
-  margin: 40px 0 0 0;    
+  margin: 40px 0 0 0;      
   }
 
 a.home:link {
@@ -90,6 +96,7 @@ a.home:link {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 8px;
 }
 
 a.home:visited {color: white;}
@@ -104,6 +111,7 @@ a.about:link {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 8px;
 }
 
 a.about:visited {color: white;;}
@@ -118,6 +126,7 @@ a.contact:link {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 8px;
 }
 
 a.contact:visited {
@@ -130,7 +139,6 @@ a.contact:hover {
 
 .parag2 {
   font-family: 'Saira', sans-serif;
-
   width: 1500px;
   text-align: center;
   font-size: x-large;  
@@ -139,10 +147,66 @@ a.contact:hover {
   }
 
 footer { 
-  position :absolute;
-  bottom : 0;
-  right: 0;
+  position :sticky;
+  top : 0;
+  right: 0;  
 }
+
+
+
 .media {
   float: left;
 }
+
+/* Contacts */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; 
+}
+
+input[type=submit] {
+  background-color: #f44336;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-info {
+  width: 50%;
+  background-color:rgb(241, 241, 246);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: x-large;  
+  }
+
+.contact {
+  margin: 5%;
+  } 
+
+
