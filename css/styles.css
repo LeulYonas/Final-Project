@@ -82,8 +82,8 @@ li {
   }
 
 .row img {
-  width: 200px;
-  height: 200px;  
+  width: 300px;
+  height: 300px;  
   margin: 40px 0 0 0;      
   }
 
@@ -147,12 +147,18 @@ a.contact:hover {
   }
 
 footer { 
-  position :sticky;
-  top : 0;
-  right: 0;  
-}
+ background-color: #ccc; 
+ height: 80px;
+ position: absoute;
+ bottom: 0%;
+ }
+ 
 
 
+.fa-brands {
+  float: right;
+  margin: 5px; 
+ }
 
 .media {
   float: left;
@@ -209,4 +215,23 @@ input[type=submit]:hover {
   margin: 5%;
   } 
 
+  .media-container{
+    float: left;
+  }
+iframe {  
+  width: 1500px;
+  height: 500px;  
+  margin: 100px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  }
 
+audio {  
+  display: block;
+  margin: 100px auto 100px auto;   
+}
+
+p.audio-container {
+  background-color: red;
+}
